@@ -5,7 +5,7 @@
  */
 export default {
   "title": "Code & Life",
-  "tagline": "Dinosaurs are cool",
+  "tagline": "",
   "favicon": "img/favicon.ico",
   "url": "https://github.com",
   "baseUrl": "/",
