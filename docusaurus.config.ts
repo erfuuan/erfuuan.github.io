@@ -69,7 +69,7 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      // title: 'My Blog',
+      title: 'Home',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -132,11 +132,15 @@ const config: Config = {
           // ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} My Project.`,
     },
     prism: {
-      theme: prismThemes.github,
-      darkTheme: prismThemes.dracula,
+      // theme: prismThemes.github,
+      theme: prismThemes.oneDark,
+
+      // darkTheme: prismThemes.dracula,
+      darkTheme: prismThemes.nightOwl,
+
     },
   } satisfies Preset.ThemeConfig,
 };
