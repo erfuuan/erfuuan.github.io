@@ -8,7 +8,7 @@ export default {
   "tagline": "Dinosaurs are cool",
   "favicon": "img/favicon.ico",
   "url": "https://github.com",
-  "baseUrl": "/erfuuan.github.io/",
+  "baseUrl": "/",
   "organizationName": "erfuuan",
   "projectName": "erfuuan.github.io",
   "deploymentBranch": "master",

@@ -1,5 +1,5 @@
 {
-  "/erfuuan.github.io/blog-41f": {
+  "/blog-b2f": {
     "__comp": "a6aa9e1f",
     "__context": {
       "plugin": "36994c47"
@@ -19,16 +19,16 @@
         "content": "925b3f96"
       }
     ],
-    "__props": "cc279499"
+    "__props": "c15d9823"
   },
-  "/erfuuan.github.io/blog/archive-8b5": {
+  "/blog/archive-182": {
     "__comp": "9e4087bc",
     "__context": {
       "plugin": "36994c47"
     },
-    "__props": "76c1bcff"
+    "__props": "f81c1134"
   },
-  "/erfuuan.github.io/blog/authors-279": {
+  "/blog/authors-0b7": {
     "__comp": "621db11d",
     "__context": {
       "data": {
@@ -37,9 +37,9 @@
       "plugin": "36994c47"
     },
     "sidebar": "814f3328",
-    "__props": "142929cb"
+    "__props": "ef8b811a"
   },
-  "/erfuuan.github.io/blog/authors/all-sebastien-lorber-articles-b0f": {
+  "/blog/authors/all-sebastien-lorber-articles-4a1": {
     "__comp": "33fc5bb8",
     "__context": {
       "data": {
@@ -59,9 +59,9 @@
       }
     ],
     "sidebar": "814f3328",
-    "__props": "7b3da32d"
+    "__props": "c9c9bef8"
   },
-  "/erfuuan.github.io/blog/authors/yangshun-814": {
+  "/blog/authors/yangshun-a68": {
     "__comp": "33fc5bb8",
     "__context": {
       "data": {
@@ -81,9 +81,9 @@
       }
     ],
     "sidebar": "814f3328",
-    "__props": "20536d2d"
+    "__props": "1dea6ca3"
   },
-  "/erfuuan.github.io/blog/first-blog-post-7fc": {
+  "/blog/first-blog-post-89a": {
     "__comp": "ccc49370",
     "__context": {
       "data": {
@@ -94,7 +94,7 @@
     "sidebar": "814f3328",
     "content": "e273c56f"
   },
-  "/erfuuan.github.io/blog/long-blog-post-420": {
+  "/blog/long-blog-post-9ad": {
     "__comp": "ccc49370",
     "__context": {
       "data": {
@@ -105,7 +105,7 @@
     "sidebar": "814f3328",
     "content": "73664a40"
   },
-  "/erfuuan.github.io/blog/mdx-blog-post-521": {
+  "/blog/mdx-blog-post-e9f": {
     "__comp": "ccc49370",
     "__context": {
       "data": {
@@ -116,15 +116,15 @@
     "sidebar": "814f3328",
     "content": "59362658"
   },
-  "/erfuuan.github.io/blog/tags-77c": {
+  "/blog/tags-287": {
     "__comp": "01a85c17",
     "__context": {
       "plugin": "36994c47"
     },
     "sidebar": "814f3328",
-    "__props": "4babe548"
+    "__props": "3a2db09e"
   },
-  "/erfuuan.github.io/blog/tags/docusaurus-301": {
+  "/blog/tags/docusaurus-704": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "36994c47"
@@ -144,9 +144,9 @@
         "content": "925b3f96"
       }
     ],
-    "__props": "34968d5a"
+    "__props": "3217192f"
   },
-  "/erfuuan.github.io/blog/tags/facebook-397": {
+  "/blog/tags/facebook-858": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "36994c47"
@@ -157,9 +157,9 @@
         "content": "7661071f"
       }
     ],
-    "__props": "4985ba89"
+    "__props": "e5aefb32"
   },
-  "/erfuuan.github.io/blog/tags/hello-c19": {
+  "/blog/tags/hello-299": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "36994c47"
@@ -173,9 +173,9 @@
         "content": "8717b14a"
       }
     ],
-    "__props": "4b6b1ca1"
+    "__props": "f82cd581"
   },
-  "/erfuuan.github.io/blog/tags/hola-390": {
+  "/blog/tags/hola-00d": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "36994c47"
@@ -186,9 +186,9 @@
         "content": "925b3f96"
       }
     ],
-    "__props": "27351ffe"
+    "__props": "5e90a9b3"
   },
-  "/erfuuan.github.io/blog/welcome-fb4": {
+  "/blog/welcome-d2b": {
     "__comp": "ccc49370",
     "__context": {
       "data": {
@@ -199,71 +199,71 @@
     "sidebar": "814f3328",
     "content": "d9f32620"
   },
-  "/erfuuan.github.io/markdown-page-e2e": {
+  "/markdown-page-3d7": {
     "__comp": "1f391b9e",
     "__context": {
       "plugin": "a7456010"
     },
     "content": "393be207"
   },
-  "/erfuuan.github.io/docs-070": {
+  "/docs-733": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "aba21aa0"
     }
   },
-  "/erfuuan.github.io/docs-925": {
+  "/docs-7e6": {
     "__comp": "a7bd4aaa",
-    "__props": "5c98152d"
+    "__props": "0058b4c6"
   },
-  "/erfuuan.github.io/docs-c75": {
+  "/docs-ba6": {
     "__comp": "a94703ab"
   },
-  "/erfuuan.github.io/docs/category/tutorial---basics-82d": {
+  "/docs/category/tutorial---basics-20e": {
     "__comp": "14eb3368",
-    "__props": "a86d9272"
+    "__props": "c8a4e95a"
   },
-  "/erfuuan.github.io/docs/category/tutorial---extras-d5d": {
+  "/docs/category/tutorial---extras-9ad": {
     "__comp": "14eb3368",
-    "__props": "c4f8d6b5"
+    "__props": "6bb166bd"
   },
-  "/erfuuan.github.io/docs/intro-700": {
+  "/docs/intro-61d": {
     "__comp": "17896441",
     "content": "0e384e19"
   },
-  "/erfuuan.github.io/docs/tutorial-basics/congratulations-ac0": {
+  "/docs/tutorial-basics/congratulations-458": {
     "__comp": "17896441",
     "content": "822bd8ab"
   },
-  "/erfuuan.github.io/docs/tutorial-basics/create-a-blog-post-644": {
+  "/docs/tutorial-basics/create-a-blog-post-108": {
     "__comp": "17896441",
     "content": "533a09ca"
   },
-  "/erfuuan.github.io/docs/tutorial-basics/create-a-document-f0b": {
+  "/docs/tutorial-basics/create-a-document-8fc": {
     "__comp": "17896441",
     "content": "1e4232ab"
   },
-  "/erfuuan.github.io/docs/tutorial-basics/create-a-page-a3b": {
+  "/docs/tutorial-basics/create-a-page-951": {
     "__comp": "17896441",
     "content": "5c868d36"
   },
-  "/erfuuan.github.io/docs/tutorial-basics/deploy-your-site-e82": {
+  "/docs/tutorial-basics/deploy-your-site-4f5": {
     "__comp": "17896441",
     "content": "f55d3e7a"
   },
-  "/erfuuan.github.io/docs/tutorial-basics/markdown-features-4b7": {
+  "/docs/tutorial-basics/markdown-features-b05": {
     "__comp": "17896441",
     "content": "18c41134"
   },
-  "/erfuuan.github.io/docs/tutorial-extras/manage-docs-versions-611": {
+  "/docs/tutorial-extras/manage-docs-versions-978": {
     "__comp": "17896441",
     "content": "dff1c289"
   },
-  "/erfuuan.github.io/docs/tutorial-extras/translate-your-site-825": {
+  "/docs/tutorial-extras/translate-your-site-f9a": {
     "__comp": "17896441",
     "content": "e44a2883"
   },
-  "/erfuuan.github.io/-6ae": {
+  "/-e5f": {
     "__comp": "1df93b7f",
     "__context": {
       "plugin": "a7456010"

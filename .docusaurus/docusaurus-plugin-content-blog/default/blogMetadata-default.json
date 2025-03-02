@@ -1,5 +1,5 @@
 {
-  "blogBasePath": "/erfuuan.github.io/blog",
+  "blogBasePath": "/blog",
   "blogTitle": "Blog",
-  "authorsListPath": "/erfuuan.github.io/blog/authors"
+  "authorsListPath": "/blog/authors"
 }
