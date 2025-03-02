@@ -4,14 +4,14 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "My Blog",
-  "url": "https://erfuuan.github.io",
-  "projectName": "blog",
-  "organizationName": "erfuuan",
-  "trailingSlash": false,
+  "title": "My Site",
   "tagline": "Dinosaurs are cool",
   "favicon": "img/favicon.ico",
-  "baseUrl": "/blog/",
+  "url": "https://github.com",
+  "baseUrl": "/erfuuan.github.io/",
+  "organizationName": "erfuuan",
+  "projectName": "erfuuan.github.io/",
+  "deploymentBranch": "master",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {

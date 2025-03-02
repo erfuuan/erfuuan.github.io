@@ -3,190 +3,155 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/blog/__docusaurus/debug',
-    component: ComponentCreator('/blog/__docusaurus/debug', '042'),
+    path: '/erfuuan.github.io/blog',
+    component: ComponentCreator('/erfuuan.github.io/blog', '41f'),
     exact: true
   },
   {
-    path: '/blog/__docusaurus/debug/config',
-    component: ComponentCreator('/blog/__docusaurus/debug/config', 'ebe'),
+    path: '/erfuuan.github.io/blog/archive',
+    component: ComponentCreator('/erfuuan.github.io/blog/archive', '8b5'),
     exact: true
   },
   {
-    path: '/blog/__docusaurus/debug/content',
-    component: ComponentCreator('/blog/__docusaurus/debug/content', '79a'),
+    path: '/erfuuan.github.io/blog/authors',
+    component: ComponentCreator('/erfuuan.github.io/blog/authors', '279'),
     exact: true
   },
   {
-    path: '/blog/__docusaurus/debug/globalData',
-    component: ComponentCreator('/blog/__docusaurus/debug/globalData', '84e'),
+    path: '/erfuuan.github.io/blog/authors/all-sebastien-lorber-articles',
+    component: ComponentCreator('/erfuuan.github.io/blog/authors/all-sebastien-lorber-articles', 'b0f'),
     exact: true
   },
   {
-    path: '/blog/__docusaurus/debug/metadata',
-    component: ComponentCreator('/blog/__docusaurus/debug/metadata', 'd20'),
+    path: '/erfuuan.github.io/blog/authors/yangshun',
+    component: ComponentCreator('/erfuuan.github.io/blog/authors/yangshun', '814'),
     exact: true
   },
   {
-    path: '/blog/__docusaurus/debug/registry',
-    component: ComponentCreator('/blog/__docusaurus/debug/registry', '4a4'),
+    path: '/erfuuan.github.io/blog/first-blog-post',
+    component: ComponentCreator('/erfuuan.github.io/blog/first-blog-post', '7fc'),
     exact: true
   },
   {
-    path: '/blog/__docusaurus/debug/routes',
-    component: ComponentCreator('/blog/__docusaurus/debug/routes', '1b9'),
+    path: '/erfuuan.github.io/blog/long-blog-post',
+    component: ComponentCreator('/erfuuan.github.io/blog/long-blog-post', '420'),
     exact: true
   },
   {
-    path: '/blog/blog',
-    component: ComponentCreator('/blog/blog', '479'),
+    path: '/erfuuan.github.io/blog/mdx-blog-post',
+    component: ComponentCreator('/erfuuan.github.io/blog/mdx-blog-post', '521'),
     exact: true
   },
   {
-    path: '/blog/blog/archive',
-    component: ComponentCreator('/blog/blog/archive', '4bf'),
+    path: '/erfuuan.github.io/blog/tags',
+    component: ComponentCreator('/erfuuan.github.io/blog/tags', '77c'),
     exact: true
   },
   {
-    path: '/blog/blog/authors',
-    component: ComponentCreator('/blog/blog/authors', '44c'),
+    path: '/erfuuan.github.io/blog/tags/docusaurus',
+    component: ComponentCreator('/erfuuan.github.io/blog/tags/docusaurus', '301'),
     exact: true
   },
   {
-    path: '/blog/blog/authors/all-sebastien-lorber-articles',
-    component: ComponentCreator('/blog/blog/authors/all-sebastien-lorber-articles', '774'),
+    path: '/erfuuan.github.io/blog/tags/facebook',
+    component: ComponentCreator('/erfuuan.github.io/blog/tags/facebook', '397'),
     exact: true
   },
   {
-    path: '/blog/blog/authors/yangshun',
-    component: ComponentCreator('/blog/blog/authors/yangshun', 'fe3'),
+    path: '/erfuuan.github.io/blog/tags/hello',
+    component: ComponentCreator('/erfuuan.github.io/blog/tags/hello', 'c19'),
     exact: true
   },
   {
-    path: '/blog/blog/first-blog-post',
-    component: ComponentCreator('/blog/blog/first-blog-post', '92f'),
+    path: '/erfuuan.github.io/blog/tags/hola',
+    component: ComponentCreator('/erfuuan.github.io/blog/tags/hola', '390'),
     exact: true
   },
   {
-    path: '/blog/blog/long-blog-post',
-    component: ComponentCreator('/blog/blog/long-blog-post', '258'),
+    path: '/erfuuan.github.io/blog/welcome',
+    component: ComponentCreator('/erfuuan.github.io/blog/welcome', 'fb4'),
     exact: true
   },
   {
-    path: '/blog/blog/mdx-blog-post',
-    component: ComponentCreator('/blog/blog/mdx-blog-post', 'b5d'),
+    path: '/erfuuan.github.io/markdown-page',
+    component: ComponentCreator('/erfuuan.github.io/markdown-page', 'e2e'),
     exact: true
   },
   {
-    path: '/blog/blog/tags',
-    component: ComponentCreator('/blog/blog/tags', '542'),
-    exact: true
-  },
-  {
-    path: '/blog/blog/tags/docusaurus',
-    component: ComponentCreator('/blog/blog/tags/docusaurus', '526'),
-    exact: true
-  },
-  {
-    path: '/blog/blog/tags/facebook',
-    component: ComponentCreator('/blog/blog/tags/facebook', '931'),
-    exact: true
-  },
-  {
-    path: '/blog/blog/tags/hello',
-    component: ComponentCreator('/blog/blog/tags/hello', 'ab4'),
-    exact: true
-  },
-  {
-    path: '/blog/blog/tags/hola',
-    component: ComponentCreator('/blog/blog/tags/hola', '1de'),
-    exact: true
-  },
-  {
-    path: '/blog/blog/welcome',
-    component: ComponentCreator('/blog/blog/welcome', '4bf'),
-    exact: true
-  },
-  {
-    path: '/blog/markdown-page',
-    component: ComponentCreator('/blog/markdown-page', 'b60'),
-    exact: true
-  },
-  {
-    path: '/blog/docs',
-    component: ComponentCreator('/blog/docs', 'f48'),
+    path: '/erfuuan.github.io/docs',
+    component: ComponentCreator('/erfuuan.github.io/docs', '070'),
     routes: [
       {
-        path: '/blog/docs',
-        component: ComponentCreator('/blog/docs', '2f2'),
+        path: '/erfuuan.github.io/docs',
+        component: ComponentCreator('/erfuuan.github.io/docs', '925'),
         routes: [
           {
-            path: '/blog/docs',
-            component: ComponentCreator('/blog/docs', '72e'),
+            path: '/erfuuan.github.io/docs',
+            component: ComponentCreator('/erfuuan.github.io/docs', 'c75'),
             routes: [
               {
-                path: '/blog/docs/category/tutorial---basics',
-                component: ComponentCreator('/blog/docs/category/tutorial---basics', 'b8e'),
+                path: '/erfuuan.github.io/docs/category/tutorial---basics',
+                component: ComponentCreator('/erfuuan.github.io/docs/category/tutorial---basics', '82d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/blog/docs/category/tutorial---extras',
-                component: ComponentCreator('/blog/docs/category/tutorial---extras', '350'),
+                path: '/erfuuan.github.io/docs/category/tutorial---extras',
+                component: ComponentCreator('/erfuuan.github.io/docs/category/tutorial---extras', 'd5d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/blog/docs/intro',
-                component: ComponentCreator('/blog/docs/intro', 'f6d'),
+                path: '/erfuuan.github.io/docs/intro',
+                component: ComponentCreator('/erfuuan.github.io/docs/intro', '700'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/blog/docs/tutorial-basics/congratulations',
-                component: ComponentCreator('/blog/docs/tutorial-basics/congratulations', '590'),
+                path: '/erfuuan.github.io/docs/tutorial-basics/congratulations',
+                component: ComponentCreator('/erfuuan.github.io/docs/tutorial-basics/congratulations', 'ac0'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/blog/docs/tutorial-basics/create-a-blog-post',
-                component: ComponentCreator('/blog/docs/tutorial-basics/create-a-blog-post', '1a7'),
+                path: '/erfuuan.github.io/docs/tutorial-basics/create-a-blog-post',
+                component: ComponentCreator('/erfuuan.github.io/docs/tutorial-basics/create-a-blog-post', '644'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/blog/docs/tutorial-basics/create-a-document',
-                component: ComponentCreator('/blog/docs/tutorial-basics/create-a-document', 'efb'),
+                path: '/erfuuan.github.io/docs/tutorial-basics/create-a-document',
+                component: ComponentCreator('/erfuuan.github.io/docs/tutorial-basics/create-a-document', 'f0b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/blog/docs/tutorial-basics/create-a-page',
-                component: ComponentCreator('/blog/docs/tutorial-basics/create-a-page', '86d'),
+                path: '/erfuuan.github.io/docs/tutorial-basics/create-a-page',
+                component: ComponentCreator('/erfuuan.github.io/docs/tutorial-basics/create-a-page', 'a3b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/blog/docs/tutorial-basics/deploy-your-site',
-                component: ComponentCreator('/blog/docs/tutorial-basics/deploy-your-site', 'd02'),
+                path: '/erfuuan.github.io/docs/tutorial-basics/deploy-your-site',
+                component: ComponentCreator('/erfuuan.github.io/docs/tutorial-basics/deploy-your-site', 'e82'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/blog/docs/tutorial-basics/markdown-features',
-                component: ComponentCreator('/blog/docs/tutorial-basics/markdown-features', 'f28'),
+                path: '/erfuuan.github.io/docs/tutorial-basics/markdown-features',
+                component: ComponentCreator('/erfuuan.github.io/docs/tutorial-basics/markdown-features', '4b7'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/blog/docs/tutorial-extras/manage-docs-versions',
-                component: ComponentCreator('/blog/docs/tutorial-extras/manage-docs-versions', '6b1'),
+                path: '/erfuuan.github.io/docs/tutorial-extras/manage-docs-versions',
+                component: ComponentCreator('/erfuuan.github.io/docs/tutorial-extras/manage-docs-versions', '611'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/blog/docs/tutorial-extras/translate-your-site',
-                component: ComponentCreator('/blog/docs/tutorial-extras/translate-your-site', 'b4d'),
+                path: '/erfuuan.github.io/docs/tutorial-extras/translate-your-site',
+                component: ComponentCreator('/erfuuan.github.io/docs/tutorial-extras/translate-your-site', '825'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }
@@ -197,8 +162,8 @@ export default [
     ]
   },
   {
-    path: '/blog/',
-    component: ComponentCreator('/blog/', '980'),
+    path: '/erfuuan.github.io/',
+    component: ComponentCreator('/erfuuan.github.io/', '6ae'),
     exact: true
   },
   {

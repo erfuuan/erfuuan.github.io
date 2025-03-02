@@ -1,5 +1,5 @@
 {
-  "permalink": "/blog/blog/long-blog-post",
+  "permalink": "/erfuuan.github.io/blog/long-blog-post",
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2019-05-29-long-blog-post.md",
   "source": "@site/blog/2019-05-29-long-blog-post.md",
   "title": "Long Blog Post",
@@ -9,13 +9,13 @@
     {
       "inline": false,
       "label": "Hello",
-      "permalink": "/blog/blog/tags/hello",
+      "permalink": "/erfuuan.github.io/blog/tags/hello",
       "description": "Hello tag description"
     },
     {
       "inline": false,
       "label": "Docusaurus",
-      "permalink": "/blog/blog/tags/docusaurus",
+      "permalink": "/erfuuan.github.io/blog/tags/docusaurus",
       "description": "Docusaurus tag description"
     }
   ],
@@ -27,7 +27,7 @@
       "title": "Front End Engineer @ Facebook",
       "url": "https://github.com/yangshun",
       "page": {
-        "permalink": "/blog/blog/authors/yangshun"
+        "permalink": "/erfuuan.github.io/blog/authors/yangshun"
       },
       "socials": {
         "x": "https://x.com/yangshunz",
@@ -49,10 +49,10 @@
   "unlisted": false,
   "prevItem": {
     "title": "MDX Blog Post",
-    "permalink": "/blog/blog/mdx-blog-post"
+    "permalink": "/erfuuan.github.io/blog/mdx-blog-post"
   },
   "nextItem": {
     "title": "First Blog Post",
-    "permalink": "/blog/blog/first-blog-post"
+    "permalink": "/erfuuan.github.io/blog/first-blog-post"
   }
 }
