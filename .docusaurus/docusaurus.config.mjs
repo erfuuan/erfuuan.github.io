@@ -10,7 +10,7 @@ export default {
   "url": "https://github.com",
   "baseUrl": "/erfuuan.github.io/",
   "organizationName": "erfuuan",
-  "projectName": "erfuuan.github.io/",
+  "projectName": "erfuuan.github.io",
   "deploymentBranch": "master",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
