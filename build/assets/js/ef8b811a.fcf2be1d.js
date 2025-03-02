@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[947],{6600:e=>{e.exports=JSON.parse('{"authors":[{"name":"erfuuan","title":"Developer","url":"https://github.com/erfuuan","key":"erfuuan","page":null,"count":1}]}')}}]);

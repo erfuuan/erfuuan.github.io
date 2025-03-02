@@ -2,28 +2,10 @@
   "title": "Recent posts",
   "items": [
     {
-      "title": "Welcome",
-      "permalink": "/blog/welcome",
+      "title": "Understanding the Event Loop Phases",
+      "permalink": "/blog/event-loop-phases",
       "unlisted": false,
-      "date": "2021-08-26T00:00:00.000Z"
-    },
-    {
-      "title": "MDX Blog Post",
-      "permalink": "/blog/mdx-blog-post",
-      "unlisted": false,
-      "date": "2021-08-01T00:00:00.000Z"
-    },
-    {
-      "title": "Long Blog Post",
-      "permalink": "/blog/long-blog-post",
-      "unlisted": false,
-      "date": "2019-05-29T00:00:00.000Z"
-    },
-    {
-      "title": "First Blog Post",
-      "permalink": "/blog/first-blog-post",
-      "unlisted": false,
-      "date": "2019-05-28T00:00:00.000Z"
+      "date": "2025-03-02T00:00:00.000Z"
     }
   ]
 }

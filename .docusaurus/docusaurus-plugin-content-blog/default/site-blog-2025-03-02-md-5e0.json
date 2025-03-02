@@ -1,0 +1,49 @@
+{
+  "permalink": "/blog/event-loop-phases",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2025-03-02.md",
+  "source": "@site/blog/2025-03-02.md",
+  "title": "Understanding the Event Loop Phases",
+  "description": "The Event Loop is the heart of asynchronous programming in Node.js. It allows Node.js to handle non-blocking I/O operations efficiently. Understanding its phases is crucial for writing performant applications.",
+  "date": "2025-03-02T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "javascript",
+      "permalink": "/blog/tags/javascript"
+    },
+    {
+      "inline": true,
+      "label": "eventloop",
+      "permalink": "/blog/tags/eventloop"
+    },
+    {
+      "inline": true,
+      "label": "nodejs",
+      "permalink": "/blog/tags/nodejs"
+    }
+  ],
+  "readingTime": 1.995,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "erfuuan",
+      "title": "Developer",
+      "url": "https://github.com/erfuuan",
+      "key": "erfuuan",
+      "page": null
+    }
+  ],
+  "frontMatter": {
+    "slug": "event-loop-phases",
+    "title": "Understanding the Event Loop Phases",
+    "authors": [
+      "erfuuan"
+    ],
+    "tags": [
+      "javascript",
+      "eventloop",
+      "nodejs"
+    ]
+  },
+  "unlisted": false
+}
