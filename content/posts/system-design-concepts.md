@@ -1,6 +1,6 @@
 +++
 title = "مفاهیم طراحی سیستم: راهنمای جامع"
-date = 2024-01-15
+date = 2025-10-17
 tags = ["system-design", "architecture", "backend", "persian", "programming", "tech", "tutorial", "guide"]
 description = "بررسی جامع مفاهیم کلیدی طراحی سیستم از معماری کلاینت-سرور تا میکروسرویس‌ها"
 +++
