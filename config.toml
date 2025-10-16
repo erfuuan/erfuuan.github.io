@@ -1,0 +1,57 @@
+base_url = "https://github.erfuuan.io/"
+
+#rss
+title = "کد و زندگی"
+description = "در اینجا از ایده هایم می‌گویم :)"
+default_language = "fa"
+
+generate_feeds = true
+feed_filenames = ["rss.xml", "atom.xml"]
+
+taxonomies = [
+    {name = "tags"}
+]
+
+compile_sass = true
+theme = "terminal"
+
+build_search_index = false
+
+[markdown]
+highlight_code = true
+highlight_theme = "boron"
+
+generate_tags_pages = true
+generate_categories_pages = true
+
+
+[extra]
+accent_color = "orange"
+comment = true
+background_color = "dark"
+author = "عرفان"
+#copyright_html = "هستند &nbsp;<b>CC-BY-SA</b>  تمامی مطالب این وبگاه تحت اجازه‌نامه"
+
+menu_items = [
+    {name = "بلاگ", url = "$BASE_URL"},
+    {name = "درباره من", url = "$BASE_URL/about"},
+    {name = "برچسب‌ها", url = "$BASE_URL/tags"},
+    {name = "آرشیو‌ها", url = "$BASE_URL/archive"},
+   # {name = "وبگاه من", url = "https://sohrabbehdani.ir", newtab = true},
+  #  {name = "بلاگ انگلیسی", url = "https://blog.sohrabbehdani.ir/", newtab = true},
+]
+
+enable_post_view_navigation = true
+#post_view_navigation_prompt = "بیشتر بخوانید..."
+
+page_titles = "main_only"
+use_full_hack_font = true
+
+[extra.footer]
+since = 2023
+license = "CC BY-SA 4.0"
+license_url = "https://creativecommons.org/licenses/by-sa/4.0/deed"
+
+[extra.mastodon]
+host = "persadon.com"
+username = "sohrab"

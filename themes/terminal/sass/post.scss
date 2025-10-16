@@ -1,0 +1,152 @@
+@import "variables";
+
+
+.posts {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.post {
+  width: 100%;
+  margin-block: 20px;
+  padding-block: 20px;
+
+  @media (max-width: $tablet-max-width) {
+    max-width: 660px;
+  }
+
+  &:not(:last-of-type) {
+    border-block-end: 1px solid var(--border-color);
+  }
+
+  %meta {
+    font-size: 1rem;
+    color: var(--accent-alpha-70);
+  }
+
+  &-meta {
+    @extend %meta;
+  }
+
+  &-meta-inline {
+    @extend %meta;
+
+    display: inline;
+  }
+
+  &-title {
+    --border: 2px dashed var(--accent);
+    position: relative;
+    color: var(--accent);
+    margin: 0 0 15px;
+    padding-block-end: 15px;
+    border-block-end: var(--border);
+    font-weight: normal;
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  %tags {
+    font-size: 1rem;
+    opacity: .5;
+  }
+
+  &-details {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-between;
+
+    @media (max-width: $phone-max-width) {
+      display: block;
+    }
+  }
+
+  &-tags {
+    @extend %tags;
+
+    display: block;
+  }
+
+  &-tags-inline {
+    @extend %tags;
+    direction: rtl;
+    display: inline;
+
+    @media (max-width: $phone-max-width) {
+      display: block;
+    }
+  }
+
+  &-content {
+    margin-block-start: 30px;
+  }
+
+  &-cover {
+    border: 20px solid var(--accent);
+    background: transparent;
+    margin-block: 40px;
+    padding: 20px;
+
+    @media (max-width: $phone-max-width) {
+      padding: 10px;
+      border-width: 10px;
+    }
+  }
+
+  ul {
+    list-style: none;
+    padding-inline-start: 0;
+    direction: rtl;
+
+    li {
+      margin-inline-start: 20px;
+      position: relative;
+    }
+
+    li::before {
+      content: '◄';
+      position: absolute;
+      inset-inline-start: -20px;
+      color: var(--accent);
+      transform: none;
+    }
+  }
+}
+
+.post--regulation {
+  h1, h2 {
+    justify-content: center;
+    text-align: center;
+  }
+
+  h2 {
+    margin-block-end: 10px;
+
+    &+h2 {
+      margin-block-start: -10px;
+      margin-block-end: 20px;
+    }
+  }
+}
+
+.post-list {
+  .post-date {
+    color: var(--accent-alpha-70);
+    text-decoration: none;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .post-list-title {
+    text-decoration: underline;
+  }
+
+  .post-tag {
+    text-decoration: underline;
+  }
+}

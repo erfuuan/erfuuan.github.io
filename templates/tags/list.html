@@ -1,0 +1,93 @@
+{% extends "index.html" %} {%- block title -%} {{
+title_macros::title(page_title="برچسب‌ها", main_title=config.title) }} {%-
+endblock -%} {% block content %}
+<div class="post">
+  <h1 class="post-title">🏷️ همه برچسب‌ها</h1>
+
+  <div class="tags-description">
+    <p>
+      در اینجا می‌توانید تمام برچسب‌های استفاده شده در بلاگ را مشاهده کنید. روی
+      هر برچسب کلیک کنید تا مطالب مرتبط را ببینید.
+    </p>
+  </div>
+
+  <div class="tags-container">
+    {% for term in terms %}
+    <div class="tag-item">
+      <a href="{{ term.permalink | safe }}" class="tag-link">
+        <span class="tag-name">#{{ term.name }}</span>
+        <span class="tag-count">({{ term.pages | length }} مطلب)</span>
+      </a>
+    </div>
+    {% endfor %}
+  </div>
+
+  {% if terms | length == 0 %}
+  <div class="no-tags">
+    <p>هنوز هیچ برچسبی اضافه نشده است.</p>
+  </div>
+  {% endif %}
+</div>
+
+<style>
+  .tags-description {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background: var(--accent-alpha-20);
+    border-radius: 8px;
+    border-left: 4px solid var(--accent);
+  }
+
+  .tags-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+
+  .tag-item {
+    background: var(--background);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 1rem;
+    transition: all 0.3s ease;
+  }
+
+  .tag-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px var(--accent-alpha-20);
+    border-color: var(--accent);
+  }
+
+  .tag-link {
+    text-decoration: none;
+    display: block;
+    color: var(--color);
+  }
+
+  .tag-name {
+    font-weight: bold;
+    color: var(--accent);
+    font-size: 1.1rem;
+  }
+
+  .tag-count {
+    display: block;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    opacity: 0.7;
+  }
+
+  .no-tags {
+    text-align: center;
+    padding: 2rem;
+    opacity: 0.6;
+  }
+
+  @media (max-width: 768px) {
+    .tags-container {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+{% endblock content %}

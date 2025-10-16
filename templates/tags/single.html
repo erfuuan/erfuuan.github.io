@@ -1,0 +1,116 @@
+{% extends "index.html" %} {%- block title -%} {% set title = "برچسب: " ~
+term.name %} {{ title_macros::title(page_title=title, main_title=config.title)
+}} {%- endblock -%} {% block content %}
+<div class="post">
+  <h1 class="post-title">
+    🏷️ برچسب: #{{ term.name }}
+    <span class="post-count">({{ term.pages | length }} مطلب)</span>
+  </h1>
+
+  <div class="tag-navigation">
+    <a href="{{ config.base_url | safe }}/tags/" class="back-to-tags">
+      ← بازگشت به همه برچسب‌ها
+    </a>
+  </div>
+
+  <div class="tag-description">
+    <p>مطالب مرتبط با برچسب <strong>#{{ term.name }}</strong>:</p>
+  </div>
+
+  <div class="posts-list">
+    {% for page in term.pages %}
+    <div class="post-item">
+      <h3 class="post-item-title">
+        <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
+      </h3>
+      <div class="post-item-meta">
+        <span class="post-date">{{ page.date | date(format="%Y-%m-%d") }}</span>
+        {% if page.description %}
+        <p class="post-description">{{ page.description }}</p>
+        {% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+<style>
+  .post-count {
+    font-size: 0.8em;
+    opacity: 0.7;
+    font-weight: normal;
+  }
+
+  .tag-navigation {
+    margin: 1.5rem 0;
+  }
+
+  .back-to-tags {
+    color: var(--accent);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--accent);
+    border-radius: 6px;
+    transition: all 0.3s ease;
+  }
+
+  .back-to-tags:hover {
+    background: var(--accent);
+    color: var(--background);
+  }
+
+  .tag-description {
+    margin: 1.5rem 0;
+    padding: 1rem;
+    background: var(--accent-alpha-20);
+    border-radius: 8px;
+    border-left: 4px solid var(--accent);
+  }
+
+  .posts-list {
+    margin-top: 2rem;
+  }
+
+  .post-item {
+    background: var(--background);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    transition: all 0.3s ease;
+  }
+
+  .post-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px var(--accent-alpha-20);
+    border-color: var(--accent);
+  }
+
+  .post-item-title {
+    margin: 0 0 0.5rem 0;
+  }
+
+  .post-item-title a {
+    color: var(--color);
+    text-decoration: none;
+  }
+
+  .post-item-title a:hover {
+    color: var(--accent);
+  }
+
+  .post-item-meta {
+    opacity: 0.7;
+    font-size: 0.9rem;
+  }
+
+  .post-date {
+    color: var(--accent);
+  }
+
+  .post-description {
+    margin: 0.5rem 0 0 0;
+    font-style: italic;
+  }
+</style>
+{% endblock content %}
