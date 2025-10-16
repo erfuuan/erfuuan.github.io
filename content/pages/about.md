@@ -17,4 +17,4 @@ path = "about"
 🐙 [GitHub](https://github.com/erfuuan)  
 💼 [LinkedIn](https://www.linkedin.com/in/erfuuan/)  
 📱 [Telegram Channel](https://t.me/erfuuan_dev)  
-🎵 [Spotify](https://open.spotify.com/user/erfuuan)
+🎵 [Spotify](https://open.spotify.com/user/zoqlw2wawa09hditolap3g5qt)
